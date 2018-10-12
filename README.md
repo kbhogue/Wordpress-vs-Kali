@@ -15,8 +15,8 @@ Time spent: **10** hours spent in total
   - [ ] Steps to recreate: Retrieve iframe embedded video link from Youtube. Add new post in Wordpress with the embedded video as the content. Add your XSS to the end of the main embedded video statement. I used onload=alert(123). The final post was <iframe width="560" height="315" src="https://www.youtube.com/embed/9SGHPQ2FVm8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen onload=alert(123)></iframe>. Alert will pop up every time the video loads.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: XSS in Page Comments
+1. (Required) XSS in Page Comments
+  - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2
