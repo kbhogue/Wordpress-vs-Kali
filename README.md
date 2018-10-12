@@ -20,5 +20,5 @@ Time Spent: 10 hours
 3\. XSS at the End of an URL
 * Vulnerabilities: XSS
 * Tested in 4.2 and fixed in 4.2.5
-* Steps to Recreate: Create a new post and paste in a website URL. At the end, add your XSS command, with svg at the beginning. I used the following command: "<svg onload=alert(123)>". An alert will pop up every time the post loads. 
+* Steps to Recreate: Create a new post and paste in a website URL. At the end, add your XSS command, with svg at the beginning. I used the following command: "<onload=alert(123)>". An alert will pop up every time the post loads. 
 ![](https://github.com/kbhogue/Wordpress-vs-Kali/blob/master/gif3.gif)
