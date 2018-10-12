@@ -14,11 +14,11 @@ Time Spent: 10 hours
 2\. XSS in Page Comment
 * Vulnerabilities: XSS
 * Tested in 4.2 and fixed in 4.2
-* Steps to Recreate: Go to the comments section of a published Wordpress page. Insert a XSS command. I used <script>onload=alert(document.cookie);</script> to make endless alerts pop up outputting the document cookies. 
+* Steps to Recreate: Go to the comments section of a published Wordpress page. Insert a XSS command. I used "<script>onload=alert(document.cookie);</script>" to make endless alerts pop up outputting the document cookies. 
 ![](https://github.com/kbhogue/Wordpress-vs-Kali/blob/master/gif2.gif)
 
 3\. XSS at the End of an URL
 * Vulnerabilities: XSS
 * Tested in 4.2 and fixed in 4.2.5
-* Steps to Recreate: Create a new post and paste in a website URL. At the end, add your XSS command, with svg at the beginning. <s vg onload=alert(123)>. An alert will pop up every time the post loads. 
+* Steps to Recreate: Create a new post and paste in a website URL. At the end, add your XSS command, with svg at the beginning. I used the following command: "<svg onload=alert(123)>". An alert will pop up every time the post loads. 
 ![](https://github.com/kbhogue/Wordpress-vs-Kali/blob/master/gif3.gif)
